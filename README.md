@@ -24,8 +24,8 @@
 5. Number present on arra or not
 6. Sum product of array
 7. Take inpurt from the user
-8.Check where number is positive negative odd even in array
-
+8. Check where number is positive negative odd even in array
+9. Find the largest and smallest elements of an array
 
 ## Matrix
 1. Spiral traversal on a Matrix
