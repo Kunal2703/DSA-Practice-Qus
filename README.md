@@ -13,3 +13,19 @@
 10. circularLinkedListDeleteAtLast - Circular Linked List Deletion At Last
 11. middleElementOfLinkedList - Find the Middle_element of the Linked List
 12. reverseLinkedList - Reversed the Linked List
+
+
+
+## Array
+1. Find the maximum and minimum element in an array
+2. Move all the negative elements to one side of the array
+3. Reverse the array
+4. Copy of all element into another array in reversed order
+5. Number present on arra or not
+6. Sum product of array
+7. Take inpurt from the user
+8.Check where number is positive negative odd even in array
+
+
+## Matrix
+1. Spiral traversal on a Matrix
