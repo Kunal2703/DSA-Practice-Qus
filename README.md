@@ -1,7 +1,7 @@
 # DAA-Cpp
 
 ## Linked List
-1. linkedList1 - LinkedList Creation and Traversal
+1. linkedList1 - Linked-List Creation and Traversal
 2. linkedList2 - Linked-List Insertion at the First position
 3. linkedList3 - Linked-List Insertion at the end position
 4. linkedList4 - Linked-List Insert In Between 
