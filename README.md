@@ -26,6 +26,8 @@
 7. Take inpurt from the user
 8. Check where number is positive negative odd even in array
 9. Find the largest and smallest elements of an array
+10. Write a program to print sum, average of all numbers, smallest and largest element of an array
+
 
 ## Matrix
 1. Spiral traversal on a Matrix
