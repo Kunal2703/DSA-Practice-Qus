@@ -27,6 +27,7 @@
 8. Check where number is positive negative odd even in array
 9. Find the largest and smallest elements of an array
 10. Write a program to print sum, average of all numbers, smallest and largest element of an array
+11. Write a program to find those pair of elements that has the maximum and minimum difference among all element pairs
 
 
 ## Matrix
