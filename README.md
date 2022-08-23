@@ -28,7 +28,12 @@
 9. Find the largest and smallest elements of an array
 10. Write a program to print sum, average of all numbers, smallest and largest element of an array
 11. Write a program to find those pair of elements that has the maximum and minimum difference among all element pairs
-
+12. Write a program to print sum, average of all numbers, smallest and largest element of an array
+13. Sort an Array Elements in Ascending Order
+14. Sort an Array Elements in Descending Order
+15. Addition of two matrix
+16. Find Duplicate Elements in Array
+17. Find Even & Odd Elements in Array
 
 ## Matrix
 1. Spiral traversal on a Matrix
