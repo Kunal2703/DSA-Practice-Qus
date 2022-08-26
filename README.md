@@ -13,7 +13,11 @@
 10. circularLinkedListDeleteAtLast - Circular Linked List Deletion At Last
 11. middleElementOfLinkedList - Find the Middle_element of the Linked List
 12. reverseLinkedList - Reversed the Linked List
-
+13. Sort the elements of the Singly linked list
+14. Doubly linked list Traversal
+15. Doubly linked list Insertion at End
+16. Doubly linled List Insertion at First
+17. Doubly Linked List Insertion between two Nodes
 
 
 ## Array
@@ -33,6 +37,7 @@
 14. Addition of two matrix
 15. Find Duplicate Elements in Array
 16. Find Even & Odd Elements in Array
+
 
 ## Matrix
 1. Spiral traversal on a Matrix
