@@ -42,7 +42,7 @@
 ## Binarys Search
 1. Binary search
 2. First and Last Position of an Element In Sorted Array
-3. Totalnumber of Occurance
+3. Total number of Occurance
 
 ## Matrix
 1. Spiral traversal on a Matrix
