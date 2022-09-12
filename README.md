@@ -45,6 +45,7 @@
 3. Total number of Occurance
 4. Peak Index in a Mountain Array
 5. pivot
+6. Search in Rotated Sorted Array
 
 ## Matrix
 1. Spiral traversal on a Matrix
