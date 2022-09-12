@@ -44,6 +44,7 @@
 2. First and Last Position of an Element In Sorted Array
 3. Total number of Occurance
 4. Peak Index in a Mountain Array
+5. pivot
 
 ## Matrix
 1. Spiral traversal on a Matrix
