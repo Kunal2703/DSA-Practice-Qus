@@ -43,6 +43,7 @@
 1. Binary search
 2. First and Last Position of an Element In Sorted Array
 3. Total number of Occurance
+4. Peak Index in a Mountain Array
 
 ## Matrix
 1. Spiral traversal on a Matrix
