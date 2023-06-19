@@ -8,9 +8,9 @@ class Test
 public:
 	Test()
     {
-		cout<<"Constructor executed" << endl;
+		cout<<"\nConstructor executed" << endl;
 	}
-    
+
 	~Test()
     {
 		cout<<"Destructor executed"<< endl;
