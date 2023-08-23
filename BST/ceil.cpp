@@ -1,4 +1,4 @@
-//Return smaller than key
+//Return greater than key
 
 #include<iostream>
 using namespace std;
@@ -13,25 +13,25 @@ struct Node {
     }
 };
 
-Node *floor (Node *root, int x) {
+Node *ceil(Node *root, int x) {
     Node *res = NULL;
-    while (root != NULL) {
+    while(root != NULL) {
         if(root -> key == x) {
             return root;
         }
-        else if(root -> key > x) {
-            root = root -> left;
+        else if(root -> key < x) {
+            root = root -> right;
         }
         else {
             res = root;
-            root = root -> right;
+            root = root -> left;
         }
     }
     return res;
 }
 
 int main() {
-    Node * root =  new Node(50);
+    Node *root = new Node(50);
     root -> left = new Node(30);
     root -> left -> left = new Node(20);
     root -> left -> right = new Node(40);
@@ -41,8 +41,7 @@ int main() {
     root -> right -> left -> right = new Node(65);
     root -> right -> right = new Node(80);
 
-    int x = 25;
-
-    cout << "Floor: " << (floor(root, 25)-> key) << endl;
+    int x = 58;
+    cout << "Ceil: " << (ceil(root, 58)-> key) << endl;
     return 0;
 }
