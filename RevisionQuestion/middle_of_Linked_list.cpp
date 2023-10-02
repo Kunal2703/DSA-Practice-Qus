@@ -15,7 +15,6 @@ struct Node *middleElement(struct Node *head) {
         fast = fast -> next -> next;
     }
     return slow;
-
 }
 
 void print(struct Node *head) {
