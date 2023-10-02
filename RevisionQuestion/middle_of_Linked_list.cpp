@@ -6,31 +6,29 @@ struct Node {
     struct Node *next;
 };
 
-struct Node *reverse(struct Node *head) {
-    struct Node *curr = head;
-    struct Node *prev = NULL;
-    struct Node *temp;
+struct Node *middleElement(struct Node *head) {
+    struct Node *slow = head;
+    struct Node *fast = head;
 
-    while(curr != NULL) {
-        temp = curr -> next;
-        curr -> next = prev;
-        prev = curr;
-        curr = temp;
+    while(fast && fast -> next) {
+        slow = slow -> next;
+        fast = fast -> next -> next;
     }
-    return prev;
+    return slow;
+
 }
 
 void print(struct Node *head) {
-    struct Node*curr = head;
-    while(curr != NULL) {
-        cout << curr -> data << " ";
-        curr = curr -> next;
+    struct Node *curr = head;
+    while(curr) {
+        cout << curr->data << " ";
+        curr = curr->next;
     }
     cout << endl;
 }
 
 int main() {
-    struct Node * head = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *head = (struct Node *)malloc(sizeof(struct Node));
     struct Node *second = (struct Node *)malloc(sizeof(struct Node));
     struct Node *third = (struct Node *)malloc(sizeof(struct Node));
     struct Node *fourth = (struct Node *)malloc(sizeof(struct Node));
@@ -46,10 +44,10 @@ int main() {
 
     fourth -> data = 4;
     fourth -> next = NULL;
-    
-    struct Node *newHead = reverse(head);
 
-    print(newHead);
-    
+    struct Node *middle = middleElement(head);
+
+    cout<< "Middle Element is: " << middle->data << endl;
+
     return 0;
 }
