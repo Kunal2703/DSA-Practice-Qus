@@ -57,5 +57,7 @@
   "files.associations": {
     "vector": "cpp",
     "iostream": "cpp"
-  }
+  },
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
