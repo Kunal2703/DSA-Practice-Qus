@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/kunalsingh/Desktop/DAA-Cpp/Questions/array",
-      "program": "/Users/kunalsingh/Desktop/DAA-Cpp/Questions/array/build/Debug/outDebug"
+      "cwd": "/Users/kunalsingh/Desktop/DAA-Cpp/Sorting",
+      "program": "/Users/kunalsingh/Desktop/DAA-Cpp/Sorting/build/Debug/outDebug"
     }
   ]
 }
