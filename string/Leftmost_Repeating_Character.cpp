@@ -7,6 +7,7 @@ int isRepeatingCharacter(string &str) {
         for(int j = i+1; j < str.length(); j++) {
             if(str[i] == str[j]) {
                 return i;
+                //cout<< "Leftmost repeating character: " << str[i] << endl;
             }
         }
     }
@@ -18,6 +19,6 @@ int main() {
     cout << "Enter the string: ";
     cin >> str;
 
-     cout << "Index of leftmost repeating character: " << isRepeatingCharacter(str) << endl;
+    cout << "Index of leftmost repeating character: " << isRepeatingCharacter(str) << endl;
     return 0;
 }
