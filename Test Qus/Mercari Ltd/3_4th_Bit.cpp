@@ -80,11 +80,6 @@ void decimalToBinary(int n) {
         n = n/2;
         i++;
     }
-
-    for(int i = i-1; i >= 0; i--) {
-        cout << arr[i];
-    }
-    cout << endl;
 };
 
 int fourthBit(int num) {
