@@ -19,13 +19,13 @@ void sprialPrint(int m, int n, int array[R][C])
     {
         for ( i = l; i < n; i++)
         {
-            printf("%d ", array[k][i]);
+            cout << array[k][i] << " ";
         }
         k++;
 
         for ( i = k; i < m; i++)
         {
-            printf("%d ", array[i][n-1]);
+            cout << array[i][n-1] << " ";
         }
         n--;
 
@@ -33,7 +33,7 @@ void sprialPrint(int m, int n, int array[R][C])
         {
             for ( i = n-1; i >= 1; i--)
             {
-                printf("%d ", array[m-1][i]);
+                cout << array[m-1][i] << " ";
             }
             m--;
         }
@@ -42,7 +42,7 @@ void sprialPrint(int m, int n, int array[R][C])
         {
             for ( i = m-1; i >= k; i--)
             {
-                printf("%d ", array[i][l]);
+                cout <<  array[i][l] << " ";
             }
             l++;
         }
