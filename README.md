@@ -49,9 +49,3 @@
 
 ## Matrix
 1. Spiral traversal on a Matrix
-
-
-
-#bnfgmdd,dfbjn
-#dfvnkmsbdjfsnkml
-#hvjkmcdjbfsnksml,
